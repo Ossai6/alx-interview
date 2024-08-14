@@ -1,4 +1,10 @@
+#!/usr/bin/python3
+'''A module for working with Pascals triangle
+'''
+
+
 def pascal_triangle(n):
+    '''Implementation'''
     try:
         # Validate that the input is a positive integer
         if not isinstance(n, int) or n <= 0:
